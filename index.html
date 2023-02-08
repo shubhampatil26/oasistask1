@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style> 
+        .contain h1{
+            font-family: cursive;
+            color: black;
+            font-size: 85px;
+        }
+        .buy{
+            font-family: cursive;
+            font-size: 25px;
+            padding: 10px;
+        }
+        .contain button{
+            padding: 12px;
+            margin-top: 25px;
+            font-size: 30px;
+            width: 300px;
+            cursor: pointer;
+            height: 100px;
+            transition: all 0.5s;
+        }
+        .contain button:hover{
+            background-color: black;
+            color: white;
+        }
+        .box{
+            /* background-color: gray; */
+            width: 700px;
+            padding: 50px;
+        }
+        .box button{
+            padding: all 20px;
+            width: 100px;
+            cursor: pointer;
+        }
+        .box input{
+            width: 200px;
+        }
+        .navlinks li a:hover{
+            color: black;
+            transition: all 0.5s;
+
+        }
+    </style>
+  </head>
+  <body>
+    <div class="section1">
+      <div class="navbar">
+        <!-- Logo -->
+        <div class="logo">Cloths</div>
+        <!-- Navbar -->
+        <ul class="navlinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+        <input class="SearchBox" type="search" placeholder="Search Box">
+      </div>
+      <div class="contain">
+        <h1>CLOTHS.in</h1>
+        <p class="buy">Buy 1 Get 1 Free</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, similique debitis labore dolores,        </p>
+        <button class="btn">Visit Now</button>
+      </div>
+    </div>
+    <div class="section2">
+        <div class="row">
+            <div class="col">
+               <img src="./1.jpg" alt="">
+                <h3>HOODIES</h3>
+                <pre>Lorem ipsum dolor sit.</pre>
+            </div>
+            <div class="col">
+                <img src="./2.jpg" alt="">
+                <h3>SHIRTS</h3>
+                <pre>Lorem ipsum dolor sit.</pre>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+               <img src="./4.jpg" alt="">
+                <h3>JEANS</h3>
+                <pre>Lorem ipsum dolor sit.</pre>
+            </div>
+            <div class="col">
+                <img src="./7.jpg" alt="">
+                <h3>JACKETS</h3>
+                <pre>Lorem ipsum dolor sit.</pre>
+            </div>
+        </div>
+    </div>
+    <div class="section3">
+        <div class="box">
+          <h1>Login</h1>
+          <form action="backend.php">
+            <div class="center">
+              Name: <input class="in" type="text" name="" id="">
+            </div>
+            <div class="center">
+              Email: <input class="in" type="email" name="" id="">
+            </div>
+            <div class="center">
+              Number: <input class="in" type="number" name="" id="">
+            </div>
+            <div class="center">
+              <div>
+
+                Gender: <br> Male:<input  type="radio" name="MYGender" id="">
+                        Female :<input  type="radio" name="MYGender" id="">
+              </div>
+            </div>
+            <button class="btn btn2">Login</button>
+          </form>
+        </div>
+
+    </div>
+    <footer>
+      <div class="space">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, tenetur. </p>
+          <pre>Thank you @copyright</pre>
+      </div>
+
+    </footer>
+
+  </body>
+</html>
